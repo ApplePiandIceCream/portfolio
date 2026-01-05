@@ -1,0 +1,56 @@
+.hero {
+    background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+    padding: 75px 0;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 50px 20px;
+    }
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
+
+.about-me {
+    background: #f8f9fa;
+}
+
+.project-card {
+    border: 1px solid rgba(0,0,0,0.05);
+    background: #ffffff;
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
+.btn {
+    transition: all 0.2s ease-in-out;
+    border-radius: 6px;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased; 
+}
+
+.btn:hover {
+
+    background-color: #0a58ca; 
+    border-color: #0a53be;
+    color: #ffffff !important; 
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.btn-outline-secondary:hover {
+    background-color: #5a6268; 
+    color: #ffffff !important;
+    transform: translateY(-1px);
+}
+
